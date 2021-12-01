@@ -1,0 +1,23 @@
+package customObjects;
+
+import java.util.ArrayList;
+
+public class CustomObjectsEqualityTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		String s1 = "Java";
+		String s2 = "Python";
+		String s3 = "C";
+		
+		ArrayList<String> list = new ArrayList<>();
+		ArrayList<String> list2 = new ArrayList<>();
+		
+		System.out.println(System.identityHashCode(list1));
+		System.out.println(System.identityHashCode(list2));
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class Person {
+
+	public static void main(String[] args) {
+		private String firstName;
+		private String lastName;
+		private int age;
+		private String cpf;
+		
+		public Person (String fName, String lName, int age, String cpf) {
+			this
+		}
+
+	}
+
+}
